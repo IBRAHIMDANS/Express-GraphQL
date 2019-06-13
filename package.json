@@ -1,0 +1,27 @@
+{
+  "name": "graphQlLearn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node ",
+    "pg": "babel-node schemas/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.6.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1",
+    "knex": "^0.17.5",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.19.1",
+    "pg": "^7.11.0"
+  }
+}
